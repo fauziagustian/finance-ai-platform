@@ -89,7 +89,7 @@ to support scalability, security, and AI-driven automation.
 | - API Orchestration  |
 +----------+-----------+
            |
-   -------------------------
+   '-------------------------'
    |                       |
    v                       v
 +-----------+      +----------------+
@@ -101,7 +101,7 @@ to support scalability, security, and AI-driven automation.
 +-----------+      +----------------+
            |
            v
-+----------------------+
+'+----------------------+'
 |   AI Service         |
 | Python (FastAPI)    |
 |----------------------|
