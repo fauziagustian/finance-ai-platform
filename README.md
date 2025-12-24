@@ -68,41 +68,35 @@ for scalability, security, and future AI automation.
 The Finance AI Platform uses a modular, service-oriented architecture designed
 to support scalability, security, and AI-driven automation.
 
-+----------------------+
 |      Frontend        |
 |  Next.js / React     |
-|----------------------|
+|                      |
 | - Dashboard          |
 | - Expenses UI        |
 | - Vendors UI         |
 | - Reports UI         |
-+----------+-----------+
-           V (RestAPI)
-+----------------------+
+
 |   Backend API        |
 |  Node.js (Express)   |
-|----------------------|
 | - Auth Middleware    |
 | - Business Logic     |
 | - API Orchestration  |
-+----------+-----------+
-      V                      V
-+-----------+      +----------------+
-| MongoDB   |      | SQL Database   |
-| (NoSQL)   |      | (Reporting)    |
-|-----------|      |----------------|
-| Expenses  |      | Aggregations   |
-| Vendors   |      | Analytics      |
-+-----------+      +----------------+
+
+
+| MongoDB   |      
+| (NoSQL)   |      
+| Expenses  |      
+| Vendors   |      
+| SQL Database   |
+| (Reporting)    |
+| Aggregations   |
+| Analytics      |
            V
-'+----------------------+'
 |   AI Service         |
 | Python (FastAPI)    |
-|----------------------|
 | - Expense Category  |
 | - Financial Summary |
 | - LLM-ready APIs    |
-+----------------------+
 
 Authentication:
 - Firebase Authentication
