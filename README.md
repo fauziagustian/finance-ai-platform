@@ -77,9 +77,7 @@ to support scalability, security, and AI-driven automation.
 | - Vendors UI         |
 | - Reports UI         |
 +----------+-----------+
-           |
-           | REST API
-           v
+           V (RestAPI)
 +----------------------+
 |   Backend API        |
 |  Node.js (Express)   |
@@ -88,10 +86,7 @@ to support scalability, security, and AI-driven automation.
 | - Business Logic     |
 | - API Orchestration  |
 +----------+-----------+
-           |
-   '-------------------------'
-   |                       |
-   v                       v
+      V                      V
 +-----------+      +----------------+
 | MongoDB   |      | SQL Database   |
 | (NoSQL)   |      | (Reporting)    |
@@ -99,8 +94,7 @@ to support scalability, security, and AI-driven automation.
 | Expenses  |      | Aggregations   |
 | Vendors   |      | Analytics      |
 +-----------+      +----------------+
-           |
-           v
+           V
 '+----------------------+'
 |   AI Service         |
 | Python (FastAPI)    |
